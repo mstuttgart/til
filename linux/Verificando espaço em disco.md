@@ -38,3 +38,9 @@ $ sudo du -hs /opt /tmp
 404K	/tmp
 745M	total
 ```
+ 
+Para verificar subfolders, use o paramentro `--max-depth=1`:
+
+```bash
+$ sudo du --max-depth=1 -h /opt /tmp
+```
